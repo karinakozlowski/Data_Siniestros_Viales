@@ -12,6 +12,8 @@
       </div>
 </div>
 
+
+
 ## **Introducción**⚠️ 🚧
 
 Este proyecto se realizó simulando ser un Data Analist de una consultora; y tiene como finalidad la elaboración de un análisis de datos solicitado por el `Observatorio de Movilidad y Seguridad Vial (OMSV)`, bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires (CABA).
@@ -38,10 +40,42 @@ Solo en 2022, se contabilizaron 3.828 muertes fatales en este tipo de hechos. Lo
 
  Por todo ello, el estudio del problema para la prevención y disminución de Siniestros viales es escencialmente importante para las autoridades.
 
+## **Dashboard Interactivo Power BI**⚠️ 🚧
+
+ **Análisis Temporal**
+![Análisis_Temporal](assets/Dashboard_1.jpg)
+
+
+ **Análisis Geografico**
+
+![Análisis_Geográfico](assets/Dashboard_3.jpg)
+
+
+ **Indicadores KPI**
+ 
+![Indicadores_KPI](assets/Dashboard_2.jpg)
+
+
+
+
+
+
 ## **Desarrollo**⚠️ 🚧
 
 ## Etapas del Proyecto <br />
 ![Etapas](https://github.com/karinakozlowski/MLOPS_API/raw/main/assets/Diagrama_2.png)  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -100,11 +134,11 @@ Para el caso de la variable `Participantes` de los sinietros; se analiza a `Acus
 ### Indicadores de Rendimiento Clave KPI⛔
 
 Una vez finalizado el Análisis Exploratorio, se utiliza el dataset resultante [Siniestros](data/siniestos_limpio.csv) y los extraidos de la página oficial de CABA con los datos de las comunas [Comunas](data/comunas.xlsx); para trabajar en la herramienta PowerBi a fin de obtener los KPI (Indicadores de Rendimiento Clave) y un `dashboard` de presentación del informe y Visualización de datos.
-Se utliza la herramienta NovyPro para mostrar el `dashboard` resultante de manera interactiva. [link](https://www.novypro.com/project/proyecto-individual-02--siniestros-viales-caba--dataanalytics)
+Se utliza la herramienta NovyPro para mostrar el `dashboard` resultante de manera interactiva. [link]()
 
 KPI Propuestos
 
-![KPI](/images/kpis.PNG)
+![KPI](assets/KPI.jpg)
 
 
  - **Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior**
@@ -165,7 +199,7 @@ Asi se concluye que deberían mejorarse las señales y controles en las Avenidas
     <img src="https://avatars.githubusercontent.com/u/838109" width="200" alt="Karina Kozlowski">
   </a>
   <br>
-  Karina Kozlowski - Rol: Data Analyst
+  Karina Kozlowski 
   <br>
   <a href="https://www.linkedin.com/in/karina-kozlowski-625535217/" target="_blank">
     <img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
