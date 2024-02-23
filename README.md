@@ -42,16 +42,14 @@ Solo en 2022, se contabilizaron 3.828 muertes fatales en este tipo de hechos. Lo
 
 ## **Dashboard Interactivo Power BI**⚠️ 🚧
 
- **Análisis Temporal**
 ![Análisis_Temporal](assets/Dashboard_1.jpg)
 
 
- **Análisis Geografico**
+ 
 
 ![Análisis_Geográfico](assets/Dashboard_3.jpg)
 
 
- **Indicadores KPI**
  
 ![Indicadores_KPI](assets/Dashboard_2.jpg)
 
