@@ -1,12 +1,12 @@
-![Steam](https://github.com/karinakozlowski/MLOPS_API/raw/main/assets/Steam_Proyect_Mlops.png)
+![Steam](assets/Banner.jpg)
 ## **Proyecto Individual** - 02-Siniestros Viales en CABA con víctimas fatales -(2016-2021) 
 
 <div>
     <div align='center'>
-    <a href="https://youtu.be/-OIHCNS6qLc" target="_blank">
+    <a href="" target="_blank">
           <img  src="https://img.shields.io/badge/VER_DEMO-3378FF?style=for-the-badge&logo=vercel&logoColor=%23343B4E"/>
        </a>
-   <a href="https://kozlowskikarina.wixsite.com/mlops" target="_blank">
+   <a href="" target="_blank">
           <img  src="https://img.shields.io/badge/VER_API-3378FF?style=for-the-badge&logo=swagger&logoColor=%23343B4E"/>
       </a>
       </div>
