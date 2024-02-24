@@ -129,8 +129,8 @@ Para el caso de la variable `Participantes` de los sinietros; se analiza a `Acus
 
 ### Indicadores de Rendimiento Clave KPI⛔
 
-Una vez finalizado el Análisis Exploratorio, se utiliza el dataset resultante [Siniestros](data/siniestos_limpio.csv) y los extraidos de la página oficial de CABA con los datos de las comunas [Comunas](data/comunas.xlsx); para trabajar en la herramienta PowerBi a fin de obtener los KPI (Indicadores de Rendimiento Clave) y un `dashboard` de presentación del informe y Visualización de datos.
-Se utliza la herramienta NovyPro para mostrar el `dashboard` resultante de manera interactiva. [link]()
+Una vez finalizado el Análisis Exploratorio, se utiliza el dataset resultante [Siniestros](1_Datasets/1A_Data_Limpia/siniestos_limpio.csv) y los extraidos de la página oficial de CABA con los datos de las comunas [Comunas](1_Datasets/1A_Data_Limpia/comunas.xlsx); para trabajar en la herramienta PowerBi a fin de obtener los KPI (Indicadores de Rendimiento Clave) y un `dashboard` de presentación del informe y Visualización de datos.
+Se utliza la herramienta Clever CLoud para mostrar el `dashboard` resultante de manera interactiva. [link](...................)
 
 KPI Propuestos
 
