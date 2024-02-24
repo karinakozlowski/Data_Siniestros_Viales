@@ -1,11 +1,11 @@
 ![Steam](/6_Assets/Banner.jpg)
 <div>
     <div align='center'>
-    <a href="" target="_blank">
-          <img  src="https://github.com/karinakozlowski/Data_Siniestros_Viales/blob/main/6_Assets/Boton01.png"/>
+    <a href="https://datasiniestrosviales.streamlit.app/" target="_blank" target="_blank">
+          <img  src="https://github.com/karinakozlowski/Data_Siniestros_Viales/blob/main/6_Assets/BotonAPP.png"/>
        </a>
-   <a href="https://datasiniestrosviales.streamlit.app/" target="_blank">
-          <img  src="https://github.com/karinakozlowski/Data_Siniestros_Viales/blob/main/6_Assets/Boton00.png"/>
+   <a href="">
+          <img  src="https://github.com/karinakozlowski/Data_Siniestros_Viales/blob/main/6_Assets/Boton01.png"/>
       </a>
       </div>
 </div>
