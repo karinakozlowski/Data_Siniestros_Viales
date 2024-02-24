@@ -54,28 +54,13 @@ Solo en 2022, se contabilizaron 3.828 muertes fatales en este tipo de hechos. Lo
 
 
 
-
-
 ## **Desarrollo**⚠️ 🚧
 
 ## Etapas del Proyecto <br />
 ![Etapas](https://github.com/karinakozlowski/MLOPS_API/raw/main/assets/Diagrama_2.png)  
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Datos⛔
+## Datos⛔
 
 Para este proyecto se trabajó con la **Bases de Víctimas Fatales en Siniestros Viales** que se encuentra en formato de Excel y contiene dos pestañas de datos:
 
@@ -101,7 +86,8 @@ En el transcurso de los años, los accidentes con víctimas fatales muestran: pa
 Los meses con más victimas fatales son **Diciembre** (86) y **Agosto**(71); mientras que los días de la semana **Sábado** (114) y **Domingo** (114) tienen la mayor cantidad de víctimas.
 
 
-![Mapa de Calor](/images/image.png)
+![Mapa de Calor](6_Assets/Correlacion.jpg)
+El mapa de calor indica que los días de fin de semana, en especial sábados y domingos se encuentran con un número más alto de víctimas fatales, siendo las horas entre 03.00 hs y 09.00 hs
 
 Los horarios críticos de los siniestros viales están relacionados con los momentos del ingreso a la jornada laboral (5-9h), el momento del almuerzo (12-14h) y la salida del trabajo (17-18h). Mientras que los fines de semana están relacionados con las salidas nocturnas (4-7h)
 
@@ -109,15 +95,13 @@ Los horarios críticos de los siniestros viales están relacionados con los mome
 
 Edad de las víctimas : La distribución del rango etario de víctimas, resulta para los `Masculinos` entre 20 y 40 años; mientras que para los `Femeninos` entre 40, 60 y 80 años.
 
-![Rango etario](/images/edad.png)
+![Rango etario](6_Assets/Relacion.jpg)
 
 El patrón de correlación Edad y Hora de las variables númericas se analiza agregando la variable Sexo, de lo que resulta la conclusión que los horarios en que los accidentes son protagonizados por Masculinos es al horario de ingreso y egreso laboral, mientras que para los Femeninos es en el horario cercano al almuerzo.
 
-![Relacion edad hora](/images/relacionedadhora.png)
-
 Utilizando la herramienta GeoPandas y extrayendo los datos de los detalles de los Barrios que conforman las 15 comunas de CABA; resulta el análisis de las coordenadas geográficas y comunas de CABA, que demostro que las comunas con más siniestos son las 1, 4 , 9, 8 y 7. 
 
-![Tabla comuna](/images/tablacomuna.PNG)
+![Tabla comuna](/6_Assets/Comunas.jpg)
 
 Los siniestros se producen en 62% de los casos en el tipo de calle `Avenida` y en el 82% de los casos se corresponden con un Cruce entre calles. Lo que resulta un patrón que se repite a lo largo de los años.
 
