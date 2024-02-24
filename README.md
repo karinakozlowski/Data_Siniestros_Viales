@@ -2,10 +2,10 @@
 <div>
     <div align='center'>
     <a href="" target="_blank">
-          <img  src="https://img.shields.io/badge/VER_DEMO-3378FF?style=for-the-badge&logo=vercel&logoColor=%23343B4E"/>
+          <img  src="https://github.com/karinakozlowski/Data_Siniestros_Viales/blob/main/6_Assets/Boton01.png"/>
        </a>
    <a href="https://datasiniestrosviales.streamlit.app/" target="_blank">
-          <img  src="https://img.shields.io/badge/VER_API-3378FF?style=for-the-badge&logo=swagger&logoColor=%23343B4E"/>
+          <img  src="https://github.com/karinakozlowski/Data_Siniestros_Viales/blob/main/6_Assets/Boton00.png"/>
       </a>
       </div>
 </div>
