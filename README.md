@@ -4,7 +4,7 @@
     <a href="" target="_blank">
           <img  src="https://img.shields.io/badge/VER_DEMO-3378FF?style=for-the-badge&logo=vercel&logoColor=%23343B4E"/>
        </a>
-   <a href="" target="_blank">
+   <a href="https://datasiniestrosviales.streamlit.app/" target="_blank">
           <img  src="https://img.shields.io/badge/VER_API-3378FF?style=for-the-badge&logo=swagger&logoColor=%23343B4E"/>
       </a>
       </div>
@@ -130,7 +130,7 @@ Para el caso de la variable `Participantes` de los sinietros; se analiza a `Acus
 ### Indicadores de Rendimiento Clave KPI⛔
 
 Una vez finalizado el Análisis Exploratorio, se utiliza el dataset resultante [Siniestros](1_Datasets/1A_Data_Limpia/siniestos_limpio.csv) y los extraidos de la página oficial de CABA con los datos de las comunas [Comunas](1_Datasets/1A_Data_Limpia/comunas.xlsx); para trabajar en la herramienta PowerBi a fin de obtener los KPI (Indicadores de Rendimiento Clave) y un `dashboard` de presentación del informe y Visualización de datos.
-Se utliza la herramienta Clever CLoud para mostrar el `dashboard` resultante de manera interactiva. [link](...................)
+Se utliza la herramienta Streamlit para desarrollar una app mostrar el `dashboard` resultante de manera interactiva. [link](https://datasiniestrosviales.streamlit.app/)
 
 KPI Propuestos
 
