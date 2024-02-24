@@ -1,6 +1,4 @@
-![Steam](assets/Banner.jpg)
-## **Proyecto Individual** - 02-Siniestros Viales en CABA con víctimas fatales -(2016-2021) 
-
+![Steam](/6_Assets/Banner.jpg)
 <div>
     <div align='center'>
     <a href="" target="_blank">
@@ -42,16 +40,16 @@ Solo en 2022, se contabilizaron 3.828 muertes fatales en este tipo de hechos. Lo
 
 ## **Dashboard Interactivo Power BI**⚠️ 🚧
 
-![Análisis_Temporal](assets/Dashboard_1.jpg)
+![Análisis_Temporal](6_Assets/Dashboard_1.jpg)
 
 
  
 
-![Análisis_Geográfico](assets/Dashboard_3.jpg)
+![Análisis_Geográfico](6_Assets/Dashboard_2.jpg)
 
 
  
-![Indicadores_KPI](assets/Dashboard_2.jpg)
+![Indicadores_KPI](6_Assets/Dashboard_3.jpg)
 
 
 
@@ -136,7 +134,7 @@ Se utliza la herramienta NovyPro para mostrar el `dashboard` resultante de maner
 
 KPI Propuestos
 
-![KPI](assets/KPI.jpg)
+![KPI](6_Assets/KPI2.jpg)
 
 
  - **Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior**
