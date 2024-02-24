@@ -66,8 +66,8 @@ Para este proyecto se trabajó con la **Bases de Víctimas Fatales en Siniestros
 
  * **HECHOS**: que contiene una fila de hecho con id único y las variables temporales, espaciales y participantes asociadas al mismo.
 
- * **VICTIMAS**: contiene una fila por cada víctima de los hechos y las variables edad, sexo y modo de desplazamiento asociadas a cada víctima. Se vincula a los HECHOS mediante el id del hecho.
-En este [documento](NOTAS_HOMICIDIOS_SINIESTRO_VIAL.pdf) se detallan todas las definiciones manejadas en los datos y en el desarrollo de este proyecto. Por otra parte, en este [link](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales) se encuentran los datos utilizados en el análisis.
+ * **VICTIMAS**: contiene una fila por cada víctima de los hechos y las variables edad, sexo y modo de desplazamiento asociadas a cada víctima. Se vincula a los HECHOS mediante el id del hecho. En este documento se detallan todas las definiciones manejadas en los datos y en el desarrollo de este proyecto. [Documento](6_Assets/NOTAS_HOMICIDIOS_SINIESTRO_VIAL.pdf)
+Por otra parte, en este [link](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales) se encuentran los datos utilizados en el análisis.
 
 
 -`Proceso de ETL (Extracción, limpieza y carga de datos)` se realiza la extraccíon y limpieza de los datos de los dos dataset `HECHOS` y `VICTIMAS`, a tráves de la utilización de Pandas y Jupyter Netbook.[ETL](2_Notebooks/2A_ETL/ETL.ipynb) Eliminando nulos, duplicados, con transformaciones necesarias como cambio en los tipos de datos, eliminación de columnas y unión de las tablas en un archivo `siniestros_limpio.csv` [archivo](1_Datasets/1A_Data_Limpia/siniestos_limpio.csv).
@@ -145,7 +145,6 @@ Se define la cantidad de accidentes fatales de peatones en siniestros viales com
 Cantidad de Accidentes Mortales en Moto = Tomando la variable `Victima` que se iguale a el campo [PEATON] del dataset 
 
 
-![Indicadores](/images/indicadores.PNG)
 
 
 ## **Tecnologias**
