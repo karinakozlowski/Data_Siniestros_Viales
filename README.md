@@ -57,7 +57,7 @@ Solo en 2022, se contabilizaron 3.828 muertes fatales en este tipo de hechos. Lo
 ## **Desarrollo**⚠️ 🚧
 
 ## Etapas del Proyecto <br />
-![Etapas](https://github.com/karinakozlowski/MLOPS_API/raw/main/assets/Diagrama_2.png)  
+![Etapas](6_Assets/BannerPasos.jpg)  
 
 
 ## Datos⛔
