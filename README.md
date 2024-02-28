@@ -64,6 +64,8 @@ Los informes del Sistema Nacional de Información Criminal (SNIC), del Ministeri
 
 ![Etapas](6_Assets/BannerPasos.jpg)  
 
+![Etapas](6_Assets/Diagrama.jpg)
+
 
 ### ⛔ Datos
 
