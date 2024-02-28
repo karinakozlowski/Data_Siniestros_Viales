@@ -59,8 +59,9 @@ Los informes del Sistema Nacional de Información Criminal (SNIC), del Ministeri
 
 ### ⛔ Datos
 
++ `Proceso de ETL (Extraccion, Transformacipon y Carga)` [ETL](2A_ETL/ETL.ipynb).
+
 Para este proyecto se trabajó con la **Bases de Víctimas Fatales en Siniestros Viales** que se encuentra en formato de Excel y contiene dos pestañas de datos:
-Este es el dataset utilizado [link](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales).Se realiza la extraccíon y limpieza de los datos de los dos dataset `HECHOS` y `VICTIMAS`, a tráves de la utilización de Pandas y Jupyter Netbook.[ETL](2A_ETL/ETL.ipynb).
 
  * **HECHOS**: que contiene una fila de hecho con id único y las variables temporales, espaciales y participantes asociadas al mismo.
 
@@ -68,19 +69,17 @@ Este es el dataset utilizado [link](https://data.buenosaires.gob.ar/dataset/vict
 Por otra parte, en este [link](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales) se encuentran los datos utilizados en el análisis.
 
 
-
 ### ⛔ Análisis de los datos
 
--`Proceso de EDA (Análisis Exploratorio de los datos)` una vez que los datos están limpios, es momento de revisar las relaciones que existen entre las variables numéricas y categóricas de los datasets, encontrar si hay presencia de outliers o anomalías (que no tienen que ser errores necesariamente), y se verificó si hay algún patrón o conocimiento que sirva en un análisis posterior. [EDA](2B_EDA/EDA.ipynb)
-
++ `Proceso de EDA (Análisis Exploratorio de los datos)` [EDA](2B_EDA/EDA.ipynb)
   
--`Análisis Temporal:` 
++ `Análisis Temporal:` 
 El mapa de calor indica que los días de fin de semana, en especial sábados y domingos se encuentran con un número más alto de víctimas fatales, siendo las horas entre 03.00 hs y 09.00 hs.
 Los horarios críticos de los siniestros viales están relacionados con los momentos del ingreso a la jornada laboral (5-9h), el momento del almuerzo (12-14h) y la salida del trabajo (17-18h). Mientras que los fines de semana están relacionados con las salidas nocturnas (4-7h)
 ![Mapa de Calor](6_Assets/Correlacion.jpg)
 
 
--`Análisis Demográfico y Geográfico:`
++ `Análisis Demográfico y Geográfico:`
 
 Edad de las víctimas : La distribución del rango etario de víctimas, resulta para los `Masculinos` entre 20 y 40 años; mientras que para los `Femeninos` entre 40, 60 y 80 años. El patrón de correlación Edad y Hora de las variables númericas se analiza agregando la variable Sexo, de lo que resulta la conclusión que los horarios en que los accidentes son protagonizados por Masculinos es al horario de ingreso y egreso laboral, mientras que para los Femeninos es en el horario cercano al almuerzo.
 
@@ -122,10 +121,10 @@ Se utliza la herramienta Streamlit para desarrollar una app mostrar el `dashboar
 
 ## **Conclusiones**⚠️ 🚧
 
-+**CUANTO:**
++ **CUANTO:**
 Las siniestros fatales entre los años 2016 a 2021 fueron 717.
 
-+**QUIEN:**
++ **QUIEN:**
 - Las víctimas son en un 76% Masculinas, y sus edades entre el rango etario de 20-40 años.
 - Los siniestros de Masculinos los mayores casos se dan en su rol como Conductor.
 - Los tipos de vehículos más frecuentes con Víctimas son las Motos y luego los Peatones; mientras que para los Acusados los vehículos más frecuentes son Autos, Colectivos y cargas.
@@ -133,11 +132,11 @@ Las siniestros fatales entre los años 2016 a 2021 fueron 717.
 - Concientizar a los motociclistas y peatones sobre los mayores riesgos 
 - Se observo un patrón en relación con la variable Edad, Hora y Sexo. Donde los Masculinos de entre 20 a 40 años y en los horarios de entrada y salida laboral o para el caso de los fines de semana en horas de salidas nocturnas.
   
-+**CUANDO:**
++ **CUANDO:**
 - Colocar controles en horarios nocturnos cercanos a la madrugada sobre avenidas
 - La franja horaria de mayor problemática es la del ingreso laboral (5-9h), la del almuerzo (12-14h)y la del regreso a casa(17-18h); aunque durante los fines de semana (Sábado y Domingo), los accidentes se manifiestan en los horarios de salidas nocturnas (3-7h).
   
-+**DONDE:**
++ **DONDE:**
 - El lugar donde se producen los siniestros, las Avenidas a lo largo de los años han sido los espacios de mayor cantidad de siniestros; y en Cruce mayor a las calles. 
 - Priorizar controles y campañas de concientización en Avenidas y mayormente cercanos a Cruces
 - Monitorear las comunas 1, 4, 9, 8 y 7 en cuanto a los resultados de KPI.
