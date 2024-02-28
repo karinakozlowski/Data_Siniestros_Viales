@@ -51,9 +51,17 @@ Los informes del Sistema Nacional de Información Criminal (SNIC), del Ministeri
 
 
 
-## **Desarrollo**⚠️ 🚧
+## **Etapas del Proyecto**⚠️ 🚧
 
-## Etapas del Proyecto <br />
+![Static Badge](https://img.shields.io/badge/PowerBI-gray?style=flat&logo=powerbi)
+![Static Badge](https://img.shields.io/badge/Python-gray?style=flat&logo=python)
+![Static Badge](https://img.shields.io/badge/-Pandas-gray?style=flat&logo=pandas)
+![Static Badge](https://img.shields.io/badge/-Matplotlib-gray?style=flat&logo=matplotlib)
+![Static Badge](https://img.shields.io/badge/-Seaborn-gray?style=flat&logo=seaborn)
+![Static Badge](https://img.shields.io/badge/-Jupyter_Notebook-gray?style=flat&logo=jupyter)
+![Static Badge](https://img.shields.io/badge/Visual_Studio_Code-gray?style=flat&logo=visual%20studio%20code&logoColor=white)
+
+
 ![Etapas](6_Assets/BannerPasos.jpg)  
 
 
@@ -85,11 +93,13 @@ Edad de las víctimas : La distribución del rango etario de víctimas, resulta 
 
 ![Rango etario](6_Assets/Relacion.jpg)
 
-
-![Tabla comuna](/6_Assets/Comunas.jpg)
++ `Análisis Geográfico:`
 
 Utilizando la herramienta GeoPandas y extrayendo los datos de los detalles de los Barrios que conforman las 15 comunas de CABA; resulta el análisis de las coordenadas geográficas y comunas de CABA, que demostro que las comunas con más siniestos son las 1, 4 , 9, 8 y 7.
 Los siniestros se producen en 62% de los casos en el tipo de calle `Avenida` y en el 82% de los casos se corresponden con un Cruce entre calles. Lo que resulta un patrón que se repite a lo largo de los años.
+
+
+![Tabla comuna](/6_Assets/Comunas.jpg)
 
 
 ### ⛔ Dashboard 
@@ -109,41 +119,13 @@ Se utliza la herramienta Streamlit para desarrollar una app mostrar el `dashboar
 +  **Reducir en un 15% la cantidad de accidentes con víctimas fatales de peatones en el último semestre, en CABA, respecto al semestre anterior.**
 
 
-## **Tecnologias**
-
-![Static Badge](https://img.shields.io/badge/PowerBI-gray?style=flat&logo=powerbi)
-![Static Badge](https://img.shields.io/badge/Python-gray?style=flat&logo=python)
-![Static Badge](https://img.shields.io/badge/-Pandas-gray?style=flat&logo=pandas)
-![Static Badge](https://img.shields.io/badge/-Matplotlib-gray?style=flat&logo=matplotlib)
-![Static Badge](https://img.shields.io/badge/-Seaborn-gray?style=flat&logo=seaborn)
-![Static Badge](https://img.shields.io/badge/-Jupyter_Notebook-gray?style=flat&logo=jupyter)
-![Static Badge](https://img.shields.io/badge/Visual_Studio_Code-gray?style=flat&logo=visual%20studio%20code&logoColor=white)
-
 ## **Conclusiones**⚠️ 🚧
 
-+ **CUANTO:**
-Las siniestros fatales entre los años 2016 a 2021 fueron 717.
 
-+ **QUIEN:**
-- Las víctimas son en un 76% Masculinas, y sus edades entre el rango etario de 20-40 años.
-- Los siniestros de Masculinos los mayores casos se dan en su rol como Conductor.
-- Los tipos de vehículos más frecuentes con Víctimas son las Motos y luego los Peatones; mientras que para los Acusados los vehículos más frecuentes son Autos, Colectivos y cargas.
-- Realizar prevención sobre los conductores Masculinos , teniendo mayor énfasis en los que estén en rango de edad entre 20 - 40 Años- 
-- Concientizar a los motociclistas y peatones sobre los mayores riesgos 
-- Se observo un patrón en relación con la variable Edad, Hora y Sexo. Donde los Masculinos de entre 20 a 40 años y en los horarios de entrada y salida laboral o para el caso de los fines de semana en horas de salidas nocturnas.
-  
-+ **CUANDO:**
-- Colocar controles en horarios nocturnos cercanos a la madrugada sobre avenidas
-- La franja horaria de mayor problemática es la del ingreso laboral (5-9h), la del almuerzo (12-14h)y la del regreso a casa(17-18h); aunque durante los fines de semana (Sábado y Domingo), los accidentes se manifiestan en los horarios de salidas nocturnas (3-7h).
-  
-+ **DONDE:**
-- El lugar donde se producen los siniestros, las Avenidas a lo largo de los años han sido los espacios de mayor cantidad de siniestros; y en Cruce mayor a las calles. 
-- Priorizar controles y campañas de concientización en Avenidas y mayormente cercanos a Cruces
-- Monitorear las comunas 1, 4, 9, 8 y 7 en cuanto a los resultados de KPI.
-- Se concluye que deberían mejorarse las señales y controles en las Avenidas sobre todo en las comunas 1 y 4 de CABA. Que podrían generarse campañas de prevención dirigidas a los Masculinos de entre 20 y 40 años .
+![Conclusiones](6_Assets/conclusiones.jpg)
 
 
-## Autor:  Karina Kozlowski <br />
+## Autor:   <br />
 
 
 <div align="center">
